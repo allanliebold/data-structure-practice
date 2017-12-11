@@ -18,4 +18,20 @@ class LinkedList(object):
         self.head = None
         self._size = 0
 
-    
+    def push(self, data):
+        """Add a node containing data to the head of the list."""
+        self.head = Node(data, self.head)
+        self._size += 1
+        return
+
+    def pop(self):
+        pass
+
+    def size(self):
+        pass
+
+    def remove(self):
+        pass
+
+    def display(self):
+        pass
